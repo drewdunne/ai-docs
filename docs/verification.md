@@ -65,10 +65,28 @@ were ordinary clarifications, not unsolicited stepping-in cases.
 
 ## Public delivery checks
 
-The public delivery audit checks actual repository visibility, anonymous retrieval, license
-detection/content, and saved file equality independently of authenticated GitHub CLI success.
-The final observations are recorded with the public publication. Kerdr was already public with
-a complete MIT license, copyright 2026 Andrew Dunne; this task did not change Kerdr.
+The final public audit used anonymous HTTP requests without authentication headers or cookies:
+
+| Repository | Visibility | GitHub license detection | LICENSE content |
+|---|---|---|---|
+| [ai-docs](https://github.com/drewdunne/ai-docs) | Public (`private: false`) | SPDX `MIT` | Complete MIT, copyright 2026 Andrew Dunne |
+| [Kerdr](https://github.com/drewdunne/kerdr) | Public (`private: false`) | SPDX `MIT` | Complete MIT, copyright 2026 Andrew Dunne |
+
+The repository pages, both GitHub LICENSE pages, both raw LICENSE files, the ai-docs reading
+guide and reconciliation chapter, and anonymous repository/license API calls all returned
+**HTTP 200**. Initial GitHub license indexing briefly returned no detection for the new repo;
+the completed audit confirmed MIT after indexing finished. The ai-docs raw LICENSE matched the
+local file exactly.
+
+An anonymous HTTPS Git clone, with the credential helper and extra authentication headers
+disabled and terminal prompts off, retrieved **all 33 tracked files**. Every file matched the
+local committed bytes. Independently, the primary agent fetched every file in the published
+commit anonymously and confirmed **33/33 byte-for-byte matches**. The small final verification
+update was pushed and checked against the public remote as well.
+
+Kerdr was already public and correctly licensed; this task did not change it. The public
+handbook includes the short overview, detailed chapters, seven diagrams, seven illustrative
+record files plus their guide, two verification scripts, and the 47-unit source manifest.
 
 ## Limits of this verification
 
