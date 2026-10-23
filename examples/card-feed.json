@@ -1,0 +1,32 @@
+{
+  "kerdr_feed": 1,
+  "source": "example-tracker",
+  "machine": "example-machine",
+  "generated_at": "2026-10-23T12:00:00-05:00",
+  "sessions": {
+    "default": {"used": 1, "limit": 3, "max": 5},
+    "background": {"used": 1, "limit": null}
+  },
+  "cards": [
+    {
+      "id": "9001",
+      "ref": "#9001",
+      "title": "Explain export failures clearly",
+      "stage": "test",
+      "state": "background",
+      "priority": "normal",
+      "lane": "background",
+      "home": {"machine": "example-machine", "session": "default"},
+      "workspace": {"session": "background", "id": "w-example", "label": "01-export-errors", "agent": "working"},
+      "attention": "running",
+      "status": "Under way",
+      "message": "Checking missing and unwritable output destinations.",
+      "criteria": [
+        {"text": "Failure explains the destination problem.", "met": true},
+        {"text": "Input remains intact.", "met": null}
+      ],
+      "path": "intents/9001-export-errors"
+    }
+  ],
+  "warnings": []
+}

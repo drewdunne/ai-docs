@@ -1,0 +1,1963 @@
+{
+  "schema": 1,
+  "audited_at_utc": "2026-10-23T20:27:48.201459+00:00",
+  "source_repository": "ark-sdlc (private; not distributed)",
+  "source_revision": "7c2142fadfb92d695fe09afce1fefc0d0540ade9",
+  "source_files_with_uncommitted_changes": [],
+  "purpose": "Audit locators and digests only. No private source contents are distributed. Compare files only in an authorized private checkout.",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "3c822fff77be0d54a9df2c99107cd5c483e6ecbdb9be836a3cacccf9de4c0637",
+      "lines": 321,
+      "symbols": []
+    },
+    {
+      "path": "CONTEXT.md",
+      "sha256": "b6a4616a90cf78990b653f7422bca0e796b5655e563edfcedce7f242fb49b071",
+      "lines": 407,
+      "symbols": []
+    },
+    {
+      "path": "config/agents/global-CLAUDE.md",
+      "sha256": "9cfed972ab758d1f86105cd6ebef240941c97fa41ed97fbcb3ec9e667f01f2bc",
+      "lines": 225,
+      "symbols": []
+    },
+    {
+      "path": "bin/ark-new-intent",
+      "sha256": "445699e0834d4e6763a9f62fa10da040028f3f6dc7b85481a851c73aa989b94d",
+      "lines": 74,
+      "symbols": [
+        {
+          "symbol": "claim_path",
+          "start_line": 31
+        },
+        {
+          "symbol": "claim_body",
+          "start_line": 32
+        }
+      ]
+    },
+    {
+      "path": "bin/ark-new-friction",
+      "sha256": "5df16ab14822d89e732333a61d1ba92f2f6c912937d5e70e774f2faac2218180",
+      "lines": 14,
+      "symbols": [
+        {
+          "symbol": "claim_path",
+          "start_line": 11
+        },
+        {
+          "symbol": "claim_body",
+          "start_line": 12
+        }
+      ]
+    },
+    {
+      "path": "bin/lib/ark-claim.sh",
+      "sha256": "8db9a870853625f24496b4697847e7409229654fb18e05a2a6bb84edb60947bd",
+      "lines": 106,
+      "symbols": [
+        {
+          "symbol": "ark_receive_pack",
+          "start_line": 18
+        },
+        {
+          "symbol": "ark_taken",
+          "start_line": 24
+        },
+        {
+          "symbol": "ark_claim",
+          "start_line": 28
+        }
+      ]
+    },
+    {
+      "path": "bin/ark-state",
+      "sha256": "c0ed18b97748089bbdc620e37062fbc846d60f7f122a179aa3fa017718c35695",
+      "lines": 587,
+      "symbols": [
+        {
+          "symbol": "die",
+          "start_line": 76,
+          "end_line": 78
+        },
+        {
+          "symbol": "intent_dirs",
+          "start_line": 81,
+          "end_line": 83
+        },
+        {
+          "symbol": "find",
+          "start_line": 86,
+          "end_line": 94
+        },
+        {
+          "symbol": "front",
+          "start_line": 97,
+          "end_line": 111
+        },
+        {
+          "symbol": "get",
+          "start_line": 114,
+          "end_line": 118
+        },
+        {
+          "symbol": "texts",
+          "start_line": 121,
+          "end_line": 141
+        },
+        {
+          "symbol": "number",
+          "start_line": 144,
+          "end_line": 145
+        },
+        {
+          "symbol": "title",
+          "start_line": 148,
+          "end_line": 150
+        },
+        {
+          "symbol": "priority",
+          "start_line": 153,
+          "end_line": 156
+        },
+        {
+          "symbol": "short",
+          "start_line": 159,
+          "end_line": 163
+        },
+        {
+          "symbol": "waits_on",
+          "start_line": 166,
+          "end_line": 176
+        },
+        {
+          "symbol": "near",
+          "start_line": 179,
+          "end_line": 185
+        },
+        {
+          "symbol": "waiting",
+          "start_line": 188,
+          "end_line": 197
+        },
+        {
+          "symbol": "upstream",
+          "start_line": 200,
+          "end_line": 209
+        },
+        {
+          "symbol": "home",
+          "start_line": 212,
+          "end_line": 220
+        },
+        {
+          "symbol": "set_result",
+          "start_line": 223,
+          "end_line": 228
+        },
+        {
+          "symbol": "_set_result",
+          "start_line": 231,
+          "end_line": 235
+        },
+        {
+          "symbol": "results",
+          "start_line": 238,
+          "end_line": 257
+        },
+        {
+          "symbol": "git",
+          "start_line": 260,
+          "end_line": 261
+        },
+        {
+          "symbol": "set_state",
+          "start_line": 264,
+          "end_line": 273
+        },
+        {
+          "symbol": "ours",
+          "start_line": 276,
+          "end_line": 279
+        },
+        {
+          "symbol": "forget_status",
+          "start_line": 282,
+          "end_line": 291
+        },
+        {
+          "symbol": "sync_pinboards",
+          "start_line": 294,
+          "end_line": 307
+        },
+        {
+          "symbol": "set_waits",
+          "start_line": 310,
+          "end_line": 333
+        },
+        {
+          "symbol": "release",
+          "start_line": 336,
+          "end_line": 355
+        },
+        {
+          "symbol": "tell",
+          "start_line": 358,
+          "end_line": 381
+        },
+        {
+          "symbol": "notify",
+          "start_line": 384,
+          "end_line": 402
+        },
+        {
+          "symbol": "_set_state",
+          "start_line": 405,
+          "end_line": 423
+        },
+        {
+          "symbol": "set_priority",
+          "start_line": 426,
+          "end_line": 432
+        },
+        {
+          "symbol": "_set_priority",
+          "start_line": 435,
+          "end_line": 445
+        },
+        {
+          "symbol": "write",
+          "start_line": 448,
+          "end_line": 483
+        },
+        {
+          "symbol": "touched",
+          "start_line": 493,
+          "end_line": 498
+        },
+        {
+          "symbol": "main",
+          "start_line": 501,
+          "end_line": 583
+        }
+      ]
+    },
+    {
+      "path": "bin/lib/okf.py",
+      "sha256": "5c3163fba490904239fcf24a0cccba3778e825a0c525a8b92ce1d4ea13ae1ce0",
+      "lines": 552,
+      "symbols": [
+        {
+          "symbol": "split",
+          "start_line": 34,
+          "end_line": 43
+        },
+        {
+          "symbol": "join",
+          "start_line": 46,
+          "end_line": 47
+        },
+        {
+          "symbol": "parse",
+          "start_line": 50,
+          "end_line": 57
+        },
+        {
+          "symbol": "read",
+          "start_line": 60,
+          "end_line": 69
+        },
+        {
+          "symbol": "lenient",
+          "start_line": 72,
+          "end_line": 80
+        },
+        {
+          "symbol": "scalar",
+          "start_line": 83,
+          "end_line": 93
+        },
+        {
+          "symbol": "entries",
+          "start_line": 96,
+          "end_line": 107
+        },
+        {
+          "symbol": "set_key",
+          "start_line": 110,
+          "end_line": 129
+        },
+        {
+          "symbol": "drop_key",
+          "start_line": 132,
+          "end_line": 133
+        },
+        {
+          "symbol": "repair",
+          "start_line": 136,
+          "end_line": 177
+        },
+        {
+          "symbol": "locked",
+          "start_line": 183,
+          "end_line": 192
+        },
+        {
+          "symbol": "write_atomic",
+          "start_line": 195,
+          "end_line": 200
+        },
+        {
+          "symbol": "glob_re",
+          "start_line": 205,
+          "end_line": 217
+        },
+        {
+          "symbol": "types",
+          "start_line": 220,
+          "end_line": 229
+        },
+        {
+          "symbol": "rule_for",
+          "start_line": 232,
+          "end_line": 237
+        },
+        {
+          "symbol": "log_title",
+          "start_line": 255,
+          "end_line": 257
+        },
+        {
+          "symbol": "own_title",
+          "start_line": 260,
+          "end_line": 267
+        },
+        {
+          "symbol": "log_blocks",
+          "start_line": 273,
+          "end_line": 305
+        },
+        {
+          "symbol": "own_date",
+          "start_line": 308,
+          "end_line": 316
+        },
+        {
+          "symbol": "dated_blocks",
+          "start_line": 319,
+          "end_line": 354
+        },
+        {
+          "symbol": "render_log",
+          "start_line": 357,
+          "end_line": 375
+        },
+        {
+          "symbol": "reshape_log",
+          "start_line": 378,
+          "end_line": 382
+        },
+        {
+          "symbol": "log_problems",
+          "start_line": 385,
+          "end_line": 414
+        },
+        {
+          "symbol": "add_log_entry",
+          "start_line": 417,
+          "end_line": 427
+        },
+        {
+          "symbol": "trailing_new",
+          "start_line": 430,
+          "end_line": 450
+        },
+        {
+          "symbol": "reshape_log_moving",
+          "start_line": 453,
+          "end_line": 465
+        },
+        {
+          "symbol": "state_fields",
+          "start_line": 468,
+          "end_line": 475
+        },
+        {
+          "symbol": "move_log_header",
+          "start_line": 478,
+          "end_line": 501
+        },
+        {
+          "symbol": "problems",
+          "start_line": 506,
+          "end_line": 544
+        },
+        {
+          "symbol": "markdown_files",
+          "start_line": 547,
+          "end_line": 552
+        }
+      ]
+    },
+    {
+      "path": "bin/lib/okf.sh",
+      "sha256": "c73160320a45693ec238edb834ffe8ad676d568d6e600433271a7d24e07fc8ef",
+      "lines": 32,
+      "symbols": [
+        {
+          "symbol": "okf_get",
+          "start_line": 9
+        },
+        {
+          "symbol": "okf_scalar",
+          "start_line": 24
+        }
+      ]
+    },
+    {
+      "path": "bin/ark-okf",
+      "sha256": "620cb29add533ed651898596690cdec81f2f56f1687342fe6613bc2ebeceaf80",
+      "lines": 279,
+      "symbols": [
+        {
+          "symbol": "die",
+          "start_line": 39,
+          "end_line": 41
+        },
+        {
+          "symbol": "git",
+          "start_line": 44,
+          "end_line": 45
+        },
+        {
+          "symbol": "rel",
+          "start_line": 48,
+          "end_line": 49
+        },
+        {
+          "symbol": "tracked",
+          "start_line": 52,
+          "end_line": 67
+        },
+        {
+          "symbol": "dirty",
+          "start_line": 70,
+          "end_line": 75
+        },
+        {
+          "symbol": "check",
+          "start_line": 78,
+          "end_line": 99
+        },
+        {
+          "symbol": "title_of",
+          "start_line": 102,
+          "end_line": 106
+        },
+        {
+          "symbol": "fix_one",
+          "start_line": 109,
+          "end_line": 145
+        },
+        {
+          "symbol": "head_text",
+          "start_line": 148,
+          "end_line": 150
+        },
+        {
+          "symbol": "fix_log",
+          "start_line": 153,
+          "end_line": 174
+        },
+        {
+          "symbol": "today",
+          "start_line": 177,
+          "end_line": 179
+        },
+        {
+          "symbol": "fix",
+          "start_line": 182,
+          "end_line": 216
+        },
+        {
+          "symbol": "main",
+          "start_line": 219,
+          "end_line": 275
+        }
+      ]
+    },
+    {
+      "path": "config/okf-types.tsv",
+      "sha256": "e81ed5981d3ec16171a6d648e41b6b62c5259de5d07a0cf595c3d94dcfd0b7a5",
+      "lines": 42,
+      "symbols": []
+    },
+    {
+      "path": "bin/ark-dispatch",
+      "sha256": "0a30302c3e8058b4a88e99e83e9f940cdcd2057ab70429730e12a77c356f3866",
+      "lines": 446,
+      "symbols": [
+        {
+          "symbol": "die",
+          "start_line": 55
+        },
+        {
+          "symbol": "hd",
+          "start_line": 101
+        },
+        {
+          "symbol": "field",
+          "start_line": 191
+        },
+        {
+          "symbol": "note",
+          "start_line": 201
+        },
+        {
+          "symbol": "note_for_intent",
+          "start_line": 206
+        },
+        {
+          "symbol": "note_for_intent_unlocked",
+          "start_line": 217
+        },
+        {
+          "symbol": "mark",
+          "start_line": 239
+        },
+        {
+          "symbol": "need_slot",
+          "start_line": 242
+        }
+      ]
+    },
+    {
+      "path": "config/dispatch.env",
+      "sha256": "9ce6fac854a1879929e51a2a380dd4a2e8900ca5b87eeca269b094a0b40062de",
+      "lines": 7,
+      "symbols": []
+    },
+    {
+      "path": "config/attention.env",
+      "sha256": "b62bd780298bb1a81df09e5a3bbf8eca8369503aa08c66ed01ca5176a2d39eb7",
+      "lines": 20,
+      "symbols": []
+    },
+    {
+      "path": "bin/ark-slots",
+      "sha256": "29880387bf903195287af79bf5c4cfe437f15b5daf85b1f24d1138b438bd1c4b",
+      "lines": 51,
+      "symbols": [
+        {
+          "symbol": "die",
+          "start_line": 16
+        },
+        {
+          "symbol": "hd",
+          "start_line": 20
+        },
+        {
+          "symbol": "slots",
+          "start_line": 28
+        }
+      ]
+    },
+    {
+      "path": "bin/ark-shelf",
+      "sha256": "6649ddca1daf0d7eb194660038ef6bee4c6ec41067539707484aea67a0ae1e96",
+      "lines": 106,
+      "symbols": [
+        {
+          "symbol": "intent_dir",
+          "start_line": 26
+        },
+        {
+          "symbol": "title_of",
+          "start_line": 27
+        },
+        {
+          "symbol": "marked",
+          "start_line": 28
+        },
+        {
+          "symbol": "last_commit",
+          "start_line": 29
+        },
+        {
+          "symbol": "waits",
+          "start_line": 30
+        },
+        {
+          "symbol": "show",
+          "start_line": 61
+        }
+      ]
+    },
+    {
+      "path": "bin/ark-shelve",
+      "sha256": "f4c37704af2dafd3299873b1dbce72323c985f6ba34944b1a23b36d6e5ad3663",
+      "lines": 126,
+      "symbols": [
+        {
+          "symbol": "die",
+          "start_line": 24
+        },
+        {
+          "symbol": "intent_dir",
+          "start_line": 28
+        },
+        {
+          "symbol": "own_intent",
+          "start_line": 29
+        },
+        {
+          "symbol": "slots",
+          "start_line": 38
+        }
+      ]
+    },
+    {
+      "path": "config/agents/herdr/shelve/SKILL.md",
+      "sha256": "d52e1efecbdc411e544cb09778d9f964c675255bf252705f22505614ea8d1b49",
+      "lines": 67,
+      "symbols": []
+    },
+    {
+      "path": "bin/ark-pin",
+      "sha256": "6bcd7a7cb656eccdbb21456b4057a3e8938078de5b841d1acc658a690c3df8e3",
+      "lines": 288,
+      "symbols": [
+        {
+          "symbol": "die",
+          "start_line": 31
+        },
+        {
+          "symbol": "find_intent",
+          "start_line": 35
+        },
+        {
+          "symbol": "sentences",
+          "start_line": 102
+        },
+        {
+          "symbol": "render",
+          "start_line": 106
+        },
+        {
+          "symbol": "publish",
+          "start_line": 201
+        }
+      ]
+    },
+    {
+      "path": "config/pinboard/template.md",
+      "sha256": "1c4cc25aab6dd052bab08017a24f5446f84964de230048aeb0538dfc7feeffce",
+      "lines": 30,
+      "symbols": []
+    },
+    {
+      "path": "bin/ark-helper",
+      "sha256": "185b8e5863aeb6e35d01eea9160897be623241dfccc3a45894a1de92e76db38c",
+      "lines": 203,
+      "symbols": [
+        {
+          "symbol": "die",
+          "start_line": 28
+        },
+        {
+          "symbol": "hd",
+          "start_line": 43
+        },
+        {
+          "symbol": "call",
+          "start_line": 69
+        },
+        {
+          "symbol": "label",
+          "start_line": 87
+        },
+        {
+          "symbol": "pane_state",
+          "start_line": 90
+        },
+        {
+          "symbol": "remember",
+          "start_line": 98
+        },
+        {
+          "symbol": "forget",
+          "start_line": 99
+        },
+        {
+          "symbol": "filter",
+          "start_line": 104
+        },
+        {
+          "symbol": "apply",
+          "start_line": 117
+        }
+      ]
+    },
+    {
+      "path": "bin/ark-temp-sessions",
+      "sha256": "0d50c2d7faa90b6c62fe04cb2f85458ec6e5b0bd53cc532c780b7ab042be9f79",
+      "lines": 368,
+      "symbols": [
+        {
+          "symbol": "git",
+          "start_line": 50,
+          "end_line": 51
+        },
+        {
+          "symbol": "is_test",
+          "start_line": 54,
+          "end_line": 57
+        },
+        {
+          "symbol": "kind",
+          "start_line": 60,
+          "end_line": 67
+        },
+        {
+          "symbol": "unquote",
+          "start_line": 70,
+          "end_line": 73
+        },
+        {
+          "symbol": "literal",
+          "start_line": 76,
+          "end_line": 86
+        },
+        {
+          "symbol": "assigned",
+          "start_line": 89,
+          "end_line": 93
+        },
+        {
+          "symbol": "names_of",
+          "start_line": 96,
+          "end_line": 106
+        },
+        {
+          "symbol": "scan",
+          "start_line": 109,
+          "end_line": 151
+        },
+        {
+          "symbol": "shell_lines",
+          "start_line": 154,
+          "end_line": 173
+        },
+        {
+          "symbol": "py_lines",
+          "start_line": 176,
+          "end_line": 193
+        },
+        {
+          "symbol": "wrappers",
+          "start_line": 196,
+          "end_line": 219
+        },
+        {
+          "symbol": "starts_sh",
+          "start_line": 222,
+          "end_line": 237
+        },
+        {
+          "symbol": "starts_py",
+          "start_line": 240,
+          "end_line": 251
+        },
+        {
+          "symbol": "problems",
+          "start_line": 254,
+          "end_line": 291
+        },
+        {
+          "symbol": "other_names",
+          "start_line": 294,
+          "end_line": 313
+        },
+        {
+          "symbol": "wanted",
+          "start_line": 316,
+          "end_line": 317
+        },
+        {
+          "symbol": "text_of",
+          "start_line": 320,
+          "end_line": 327
+        },
+        {
+          "symbol": "check",
+          "start_line": 330,
+          "end_line": 357
+        },
+        {
+          "symbol": "main",
+          "start_line": 360,
+          "end_line": 364
+        }
+      ]
+    },
+    {
+      "path": "bin/ark-cards",
+      "sha256": "6fac2f705a26290bb7b8612b618e8a65c15e6b9592f5f43f75cf81fdf0d28227",
+      "lines": 947,
+      "symbols": [
+        {
+          "symbol": "_ark_state",
+          "start_line": 60,
+          "end_line": 65
+        },
+        {
+          "symbol": "warn",
+          "start_line": 83,
+          "end_line": 85
+        },
+        {
+          "symbol": "run",
+          "start_line": 88,
+          "end_line": 106
+        },
+        {
+          "symbol": "first_date",
+          "start_line": 109,
+          "end_line": 116
+        },
+        {
+          "symbol": "cut",
+          "start_line": 119,
+          "end_line": 127
+        },
+        {
+          "symbol": "sentences",
+          "start_line": 130,
+          "end_line": 132
+        },
+        {
+          "symbol": "real",
+          "start_line": 135,
+          "end_line": 137
+        },
+        {
+          "symbol": "markdown",
+          "start_line": 140,
+          "end_line": 155
+        },
+        {
+          "symbol": "scope",
+          "start_line": 158,
+          "end_line": 196
+        },
+        {
+          "symbol": "backlog_rank",
+          "start_line": 199,
+          "end_line": 202
+        },
+        {
+          "symbol": "edit_header",
+          "start_line": 205,
+          "end_line": 220
+        },
+        {
+          "symbol": "store_bases",
+          "start_line": 223,
+          "end_line": 224
+        },
+        {
+          "symbol": "store_path",
+          "start_line": 227,
+          "end_line": 236
+        },
+        {
+          "symbol": "atomic_record",
+          "start_line": 239,
+          "end_line": 254
+        },
+        {
+          "symbol": "sync_directory",
+          "start_line": 257,
+          "end_line": 262
+        },
+        {
+          "symbol": "record_guard",
+          "start_line": 266,
+          "end_line": 271
+        },
+        {
+          "symbol": "restore_records",
+          "start_line": 274,
+          "end_line": 281
+        },
+        {
+          "symbol": "RecoveryConflict",
+          "start_line": 284,
+          "end_line": 285
+        },
+        {
+          "symbol": "recovery_plan",
+          "start_line": 288,
+          "end_line": 321
+        },
+        {
+          "symbol": "store_guard",
+          "start_line": 325,
+          "end_line": 355
+        },
+        {
+          "symbol": "write_records",
+          "start_line": 358,
+          "end_line": 398
+        },
+        {
+          "symbol": "attention_env",
+          "start_line": 403,
+          "end_line": 412
+        },
+        {
+          "symbol": "herdr_view",
+          "start_line": 415,
+          "end_line": 464
+        },
+        {
+          "symbol": "pinboard_intent",
+          "start_line": 467,
+          "end_line": 472
+        },
+        {
+          "symbol": "git_dates",
+          "start_line": 477,
+          "end_line": 506
+        },
+        {
+          "symbol": "day",
+          "start_line": 509,
+          "end_line": 510
+        },
+        {
+          "symbol": "log_entries",
+          "start_line": 515,
+          "end_line": 527
+        },
+        {
+          "symbol": "criteria",
+          "start_line": 530,
+          "end_line": 548
+        },
+        {
+          "symbol": "first_section",
+          "start_line": 551,
+          "end_line": 555
+        },
+        {
+          "symbol": "triage",
+          "start_line": 558,
+          "end_line": 572
+        },
+        {
+          "symbol": "designs",
+          "start_line": 575,
+          "end_line": 592
+        },
+        {
+          "symbol": "read_intent",
+          "start_line": 595,
+          "end_line": 610
+        },
+        {
+          "symbol": "pin_records",
+          "start_line": 613,
+          "end_line": 625
+        },
+        {
+          "symbol": "pin_status",
+          "start_line": 628,
+          "end_line": 644
+        },
+        {
+          "symbol": "stage",
+          "start_line": 652,
+          "end_line": 690
+        },
+        {
+          "symbol": "attention",
+          "start_line": 693,
+          "end_line": 720
+        },
+        {
+          "symbol": "needs",
+          "start_line": 723,
+          "end_line": 733
+        },
+        {
+          "symbol": "card",
+          "start_line": 736,
+          "end_line": 833
+        },
+        {
+          "symbol": "newest_log_date",
+          "start_line": 836,
+          "end_line": 838
+        },
+        {
+          "symbol": "closed_on",
+          "start_line": 841,
+          "end_line": 846
+        },
+        {
+          "symbol": "feed",
+          "start_line": 851,
+          "end_line": 853
+        },
+        {
+          "symbol": "_feed",
+          "start_line": 856,
+          "end_line": 920
+        },
+        {
+          "symbol": "main",
+          "start_line": 923,
+          "end_line": 943
+        }
+      ]
+    },
+    {
+      "path": "bin/ark-card-action",
+      "sha256": "b43ea21ed948d9c98f47fa96bf6612f9288355fdbf4fb2a5ad5b9a9a89738c0c",
+      "lines": 316,
+      "symbols": [
+        {
+          "symbol": "field",
+          "start_line": 34,
+          "end_line": 40
+        },
+        {
+          "symbol": "session_name",
+          "start_line": 43,
+          "end_line": 46
+        },
+        {
+          "symbol": "resolve",
+          "start_line": 49,
+          "end_line": 62
+        },
+        {
+          "symbol": "changed",
+          "start_line": 65,
+          "end_line": 72
+        },
+        {
+          "symbol": "backlog",
+          "start_line": 75,
+          "end_line": 76
+        },
+        {
+          "symbol": "move",
+          "start_line": 79,
+          "end_line": 103
+        },
+        {
+          "symbol": "clean_env",
+          "start_line": 106,
+          "end_line": 107
+        },
+        {
+          "symbol": "run",
+          "start_line": 110,
+          "end_line": 112
+        },
+        {
+          "symbol": "save_records",
+          "start_line": 115,
+          "end_line": 176
+        },
+        {
+          "symbol": "check_home",
+          "start_line": 179,
+          "end_line": 188
+        },
+        {
+          "symbol": "dispatch",
+          "start_line": 191,
+          "end_line": 228
+        },
+        {
+          "symbol": "create",
+          "start_line": 231,
+          "end_line": 272
+        },
+        {
+          "symbol": "action",
+          "start_line": 275,
+          "end_line": 304
+        },
+        {
+          "symbol": "main",
+          "start_line": 307,
+          "end_line": 312
+        }
+      ]
+    },
+    {
+      "path": "bin/ark-friction",
+      "sha256": "648b170e551ab4ab75a893de9dbb53c9e34ddab62e59f8191bb7ff48ca186294",
+      "lines": 286,
+      "symbols": [
+        {
+          "symbol": "usage",
+          "start_line": 32
+        },
+        {
+          "symbol": "looks_secret",
+          "start_line": 35
+        },
+        {
+          "symbol": "match_cues",
+          "start_line": 42
+        },
+        {
+          "symbol": "interactive",
+          "start_line": 75
+        },
+        {
+          "symbol": "log_hit",
+          "start_line": 86
+        },
+        {
+          "symbol": "check",
+          "start_line": 99
+        },
+        {
+          "symbol": "add_case",
+          "start_line": 123
+        },
+        {
+          "symbol": "case_cmd",
+          "start_line": 143
+        },
+        {
+          "symbol": "publish_case",
+          "start_line": 177
+        },
+        {
+          "symbol": "sync_worktree",
+          "start_line": 238
+        },
+        {
+          "symbol": "local_only",
+          "start_line": 249
+        },
+        {
+          "symbol": "find_cmd",
+          "start_line": 257
+        }
+      ]
+    },
+    {
+      "path": "friction/TEMPLATE.md",
+      "sha256": "c81cc6f29a8c45765d9c9d90b252492e356702625848692644977d63e49c5702",
+      "lines": 21,
+      "symbols": []
+    },
+    {
+      "path": "config/agents/friction-cues",
+      "sha256": "70abeb76e912e39cae512acd0ca321848dc1477d9e9a6fc95b73a4a4d6f87cdf",
+      "lines": 44,
+      "symbols": []
+    },
+    {
+      "path": "friction/preflight.sh",
+      "sha256": "c29d0a38826844b3015e8ef6f54df82b9ea6192dd913f00b42b4f3d8c01381ba",
+      "lines": 27,
+      "symbols": [
+        {
+          "symbol": "field",
+          "start_line": 10
+        }
+      ]
+    },
+    {
+      "path": "bin/ark-win",
+      "sha256": "8939bd20ea66db0032441699d4e3f5d5660d1f690e6b2663ec65e7d86ca051c3",
+      "lines": 357,
+      "symbols": [
+        {
+          "symbol": "die",
+          "start_line": 68,
+          "end_line": 70
+        },
+        {
+          "symbol": "note",
+          "start_line": 73,
+          "end_line": 74
+        },
+        {
+          "symbol": "usage",
+          "start_line": 77,
+          "end_line": 79
+        },
+        {
+          "symbol": "wins",
+          "start_line": 82,
+          "end_line": 95
+        },
+        {
+          "symbol": "same",
+          "start_line": 98,
+          "end_line": 99
+        },
+        {
+          "symbol": "quoted",
+          "start_line": 102,
+          "end_line": 107
+        },
+        {
+          "symbol": "text_list",
+          "start_line": 110,
+          "end_line": 118
+        },
+        {
+          "symbol": "placeholder",
+          "start_line": 121,
+          "end_line": 122
+        },
+        {
+          "symbol": "check_draft",
+          "start_line": 125,
+          "end_line": 228
+        },
+        {
+          "symbol": "render",
+          "start_line": 231,
+          "end_line": 251
+        },
+        {
+          "symbol": "record",
+          "start_line": 254,
+          "end_line": 303
+        },
+        {
+          "symbol": "find",
+          "start_line": 306,
+          "end_line": 326
+        },
+        {
+          "symbol": "listing",
+          "start_line": 329,
+          "end_line": 339
+        },
+        {
+          "symbol": "main",
+          "start_line": 342,
+          "end_line": 353
+        }
+      ]
+    },
+    {
+      "path": "bin/ark-code-review",
+      "sha256": "4749c672a9a1a77d0f6798efca1379d36d1a85f542ea8b748cf83e4cd851f33f",
+      "lines": 595,
+      "symbols": [
+        {
+          "symbol": "die",
+          "start_line": 73
+        },
+        {
+          "symbol": "usage",
+          "start_line": 74
+        },
+        {
+          "symbol": "rel",
+          "start_line": 77
+        },
+        {
+          "symbol": "join",
+          "start_line": 85
+        },
+        {
+          "symbol": "run_dir",
+          "start_line": 88
+        },
+        {
+          "symbol": "end_with",
+          "start_line": 96
+        },
+        {
+          "symbol": "couldnt_review",
+          "start_line": 107
+        },
+        {
+          "symbol": "bare_answer",
+          "start_line": 120
+        },
+        {
+          "symbol": "stop_tree",
+          "start_line": 128
+        },
+        {
+          "symbol": "seconds_of",
+          "start_line": 146
+        },
+        {
+          "symbol": "run_review",
+          "start_line": 153
+        },
+        {
+          "symbol": "save",
+          "start_line": 230
+        },
+        {
+          "symbol": "finish",
+          "start_line": 265
+        },
+        {
+          "symbol": "say_status",
+          "start_line": 281
+        },
+        {
+          "symbol": "pane_state",
+          "start_line": 290
+        },
+        {
+          "symbol": "give_up",
+          "start_line": 301
+        },
+        {
+          "symbol": "report",
+          "start_line": 308
+        },
+        {
+          "symbol": "value",
+          "start_line": 392
+        },
+        {
+          "symbol": "content",
+          "start_line": 486
+        },
+        {
+          "symbol": "add_file",
+          "start_line": 489
+        }
+      ]
+    },
+    {
+      "path": "bin/ark-design-review",
+      "sha256": "adbbd4d38626824dc6f2a5694db1ed6c7da334241da8ad360ad8ad89b7511a8e",
+      "lines": 132,
+      "symbols": [
+        {
+          "symbol": "die",
+          "start_line": 29
+        },
+        {
+          "symbol": "rel",
+          "start_line": 69
+        }
+      ]
+    },
+    {
+      "path": "bin/lib/review.sh",
+      "sha256": "79608781b2913319dc6c0fa55b9426ad552ae82c1917f8590b6a6dab50959c8d",
+      "lines": 167,
+      "symbols": [
+        {
+          "symbol": "review_author_from_env",
+          "start_line": 10
+        },
+        {
+          "symbol": "review_pick",
+          "start_line": 23
+        },
+        {
+          "symbol": "usage_codex",
+          "start_line": 43
+        },
+        {
+          "symbol": "usage_claude",
+          "start_line": 55
+        },
+        {
+          "symbol": "review_at",
+          "start_line": 71
+        },
+        {
+          "symbol": "review_effort",
+          "start_line": 72
+        },
+        {
+          "symbol": "review_ask",
+          "start_line": 128
+        },
+        {
+          "symbol": "review_quota_line",
+          "start_line": 148
+        },
+        {
+          "symbol": "review_claim",
+          "start_line": 158
+        }
+      ]
+    },
+    {
+      "path": "config/design-review.env",
+      "sha256": "44a45246ffe8ae41d9fd557f08d54f0ca7eb388ee3d576cdf975886c9c501524",
+      "lines": 25,
+      "symbols": []
+    },
+    {
+      "path": "config/agents/herdr/wrap/SKILL.md",
+      "sha256": "8cba57348c3656ef9590fab6ec52a6061539efb79d1de07ecee1656ce4b5fd00",
+      "lines": 123,
+      "symbols": []
+    },
+    {
+      "path": "config/agents/herdr/wrap/close-own-pane",
+      "sha256": "d90a197369080ace99247a73955bf49bf3b754bd5c0b1908bab486c3179f8cef",
+      "lines": 88,
+      "symbols": []
+    },
+    {
+      "path": "bin/ark-undertaker",
+      "sha256": "025318691a64e553acf335ccbf50d0e38b81e47add63a66ef13859dadf638967",
+      "lines": 774,
+      "symbols": [
+        {
+          "symbol": "die",
+          "start_line": 70,
+          "end_line": 72
+        },
+        {
+          "symbol": "state_dir",
+          "start_line": 75,
+          "end_line": 77
+        },
+        {
+          "symbol": "HerdrError",
+          "start_line": 82,
+          "end_line": 83
+        },
+        {
+          "symbol": "Unreadable",
+          "start_line": 86,
+          "end_line": 87
+        },
+        {
+          "symbol": "herdr",
+          "start_line": 90,
+          "end_line": 110
+        },
+        {
+          "symbol": "current_session",
+          "start_line": 113,
+          "end_line": 118
+        },
+        {
+          "symbol": "sessions",
+          "start_line": 121,
+          "end_line": 135
+        },
+        {
+          "symbol": "Pane",
+          "start_line": 138,
+          "end_line": 214
+        },
+        {
+          "symbol": "all_panes",
+          "start_line": 217,
+          "end_line": 233
+        },
+        {
+          "symbol": "own_pane",
+          "start_line": 236,
+          "end_line": 245
+        },
+        {
+          "symbol": "intent_dirs",
+          "start_line": 250,
+          "end_line": 252
+        },
+        {
+          "symbol": "intents",
+          "start_line": 255,
+          "end_line": 260
+        },
+        {
+          "symbol": "find",
+          "start_line": 263,
+          "end_line": 270
+        },
+        {
+          "symbol": "front",
+          "start_line": 273,
+          "end_line": 285
+        },
+        {
+          "symbol": "number",
+          "start_line": 288,
+          "end_line": 289
+        },
+        {
+          "symbol": "state_of",
+          "start_line": 292,
+          "end_line": 296
+        },
+        {
+          "symbol": "git",
+          "start_line": 299,
+          "end_line": 300
+        },
+        {
+          "symbol": "is_intent",
+          "start_line": 305,
+          "end_line": 306
+        },
+        {
+          "symbol": "resolve",
+          "start_line": 309,
+          "end_line": 316
+        },
+        {
+          "symbol": "own_targets",
+          "start_line": 319,
+          "end_line": 326
+        },
+        {
+          "symbol": "check_targets",
+          "start_line": 329,
+          "end_line": 333
+        },
+        {
+          "symbol": "left",
+          "start_line": 338,
+          "end_line": 372
+        },
+        {
+          "symbol": "open_undertaker",
+          "start_line": 375,
+          "end_line": 379
+        },
+        {
+          "symbol": "run",
+          "start_line": 382,
+          "end_line": 386
+        },
+        {
+          "symbol": "what",
+          "start_line": 389,
+          "end_line": 391
+        },
+        {
+          "symbol": "commit",
+          "start_line": 394,
+          "end_line": 400
+        },
+        {
+          "symbol": "start",
+          "start_line": 403,
+          "end_line": 483
+        },
+        {
+          "symbol": "adopt",
+          "start_line": 486,
+          "end_line": 512
+        },
+        {
+          "symbol": "dispatch",
+          "start_line": 515,
+          "end_line": 535
+        },
+        {
+          "symbol": "mark",
+          "start_line": 540,
+          "end_line": 547
+        },
+        {
+          "symbol": "hold",
+          "start_line": 550,
+          "end_line": 562
+        },
+        {
+          "symbol": "release",
+          "start_line": 565,
+          "end_line": 576
+        },
+        {
+          "symbol": "wait",
+          "start_line": 579,
+          "end_line": 632
+        },
+        {
+          "symbol": "answer",
+          "start_line": 635,
+          "end_line": 654
+        },
+        {
+          "symbol": "log_line",
+          "start_line": 657,
+          "end_line": 683
+        },
+        {
+          "symbol": "pane_of",
+          "start_line": 686,
+          "end_line": 690
+        },
+        {
+          "symbol": "read",
+          "start_line": 693,
+          "end_line": 699
+        },
+        {
+          "symbol": "keys",
+          "start_line": 702,
+          "end_line": 708
+        },
+        {
+          "symbol": "close",
+          "start_line": 711,
+          "end_line": 723
+        },
+        {
+          "symbol": "main",
+          "start_line": 728,
+          "end_line": 736
+        },
+        {
+          "symbol": "command",
+          "start_line": 739,
+          "end_line": 770
+        }
+      ]
+    },
+    {
+      "path": "config/agents/herdr/undertaker/SKILL.md",
+      "sha256": "7253d2bfda776fbef0d26bb630803eaa51886bf7e0f5ca2271f8500838ef8713",
+      "lines": 120,
+      "symbols": []
+    },
+    {
+      "path": "bin/ark-stalled",
+      "sha256": "310725f48dda4c217601c055e16685156051691d3990e87ea5c8f24184c4c0e2",
+      "lines": 494,
+      "symbols": [
+        {
+          "symbol": "_undertaker",
+          "start_line": 60,
+          "end_line": 66
+        },
+        {
+          "symbol": "die",
+          "start_line": 72,
+          "end_line": 74
+        },
+        {
+          "symbol": "now",
+          "start_line": 77,
+          "end_line": 78
+        },
+        {
+          "symbol": "settings",
+          "start_line": 81,
+          "end_line": 94
+        },
+        {
+          "symbol": "state_dir",
+          "start_line": 97,
+          "end_line": 98
+        },
+        {
+          "symbol": "minutes",
+          "start_line": 101,
+          "end_line": 103
+        },
+        {
+          "symbol": "stamp",
+          "start_line": 106,
+          "end_line": 107
+        },
+        {
+          "symbol": "background_session",
+          "start_line": 112,
+          "end_line": 121
+        },
+        {
+          "symbol": "pinboard",
+          "start_line": 124,
+          "end_line": 137
+        },
+        {
+          "symbol": "status_file",
+          "start_line": 140,
+          "end_line": 141
+        },
+        {
+          "symbol": "mtime",
+          "start_line": 144,
+          "end_line": 148
+        },
+        {
+          "symbol": "ark_pin",
+          "start_line": 151,
+          "end_line": 160
+        },
+        {
+          "symbol": "watched",
+          "start_line": 163,
+          "end_line": 168
+        },
+        {
+          "symbol": "agent_here",
+          "start_line": 171,
+          "end_line": 183
+        },
+        {
+          "symbol": "look",
+          "start_line": 188,
+          "end_line": 209
+        },
+        {
+          "symbol": "prompt",
+          "start_line": 212,
+          "end_line": 222
+        },
+        {
+          "symbol": "home_session",
+          "start_line": 225,
+          "end_line": 230
+        },
+        {
+          "symbol": "tell",
+          "start_line": 233,
+          "end_line": 252
+        },
+        {
+          "symbol": "State",
+          "start_line": 255,
+          "end_line": 276
+        },
+        {
+          "symbol": "check",
+          "start_line": 279,
+          "end_line": 363
+        },
+        {
+          "symbol": "off_marker",
+          "start_line": 368,
+          "end_line": 369
+        },
+        {
+          "symbol": "systemctl",
+          "start_line": 372,
+          "end_line": 376
+        },
+        {
+          "symbol": "has_systemd",
+          "start_line": 379,
+          "end_line": 380
+        },
+        {
+          "symbol": "status",
+          "start_line": 383,
+          "end_line": 407
+        },
+        {
+          "symbol": "unit_dir",
+          "start_line": 413,
+          "end_line": 414
+        },
+        {
+          "symbol": "install",
+          "start_line": 417,
+          "end_line": 434
+        },
+        {
+          "symbol": "setup",
+          "start_line": 437,
+          "end_line": 458
+        },
+        {
+          "symbol": "switch",
+          "start_line": 461,
+          "end_line": 473
+        },
+        {
+          "symbol": "main",
+          "start_line": 476,
+          "end_line": 490
+        }
+      ]
+    },
+    {
+      "path": "config/stalled.env",
+      "sha256": "c8dba8ed96f9bb1b928b0087023c81151183f3670fad9eb1e248675671201009",
+      "lines": 12,
+      "symbols": []
+    },
+    {
+      "path": "config/systemd/ark-stalled.timer",
+      "sha256": "c5981e5a8e801586257b2099bfd20e4e1795ea4cddb2c12ee01611581cd11724",
+      "lines": 11,
+      "symbols": []
+    },
+    {
+      "path": "config/systemd/ark-stalled.service",
+      "sha256": "0f9528bf48249a19a8de77d57e66b221a9fac9a76d64409de9b4cbe7f548f469",
+      "lines": 15,
+      "symbols": []
+    },
+    {
+      "path": "bin/ark-pull",
+      "sha256": "574a46b21fc157c8bc70393f1a35b9bf622f21cfb1b1396ebbc239152820d7f8",
+      "lines": 348,
+      "symbols": [
+        {
+          "symbol": "g",
+          "start_line": 27
+        },
+        {
+          "symbol": "ago",
+          "start_line": 46
+        },
+        {
+          "symbol": "describe",
+          "start_line": 59
+        },
+        {
+          "symbol": "record",
+          "start_line": 83
+        },
+        {
+          "symbol": "warn_agent",
+          "start_line": 91
+        },
+        {
+          "symbol": "install_after",
+          "start_line": 98
+        },
+        {
+          "symbol": "finish",
+          "start_line": 109
+        },
+        {
+          "symbol": "names",
+          "start_line": 127
+        },
+        {
+          "symbol": "commits",
+          "start_line": 133
+        },
+        {
+          "symbol": "push",
+          "start_line": 190
+        },
+        {
+          "symbol": "mergeable",
+          "start_line": 230
+        },
+        {
+          "symbol": "sort_out",
+          "start_line": 237
+        },
+        {
+          "symbol": "startup_note",
+          "start_line": 258
+        },
+        {
+          "symbol": "put_back",
+          "start_line": 320
+        }
+      ]
+    },
+    {
+      "path": "bin/install-hooks",
+      "sha256": "2370917dd297f95b4058d4950f10cd6cd259a80e5b04e9b9662b5aeb4421d55f",
+      "lines": 121,
+      "symbols": [
+        {
+          "symbol": "g",
+          "start_line": 18
+        },
+        {
+          "symbol": "hook",
+          "start_line": 43
+        }
+      ]
+    },
+    {
+      "path": "bin/install-agent-context",
+      "sha256": "28f779ab095ae85f050937e72bc4d60b0041b3ef7fd0b3fccfa601a287987827",
+      "lines": 425,
+      "symbols": [
+        {
+          "symbol": "dgit",
+          "start_line": 25
+        },
+        {
+          "symbol": "worktree",
+          "start_line": 26
+        },
+        {
+          "symbol": "leave_alone",
+          "start_line": 32
+        },
+        {
+          "symbol": "machines_own",
+          "start_line": 38
+        },
+        {
+          "symbol": "hdr",
+          "start_line": 54
+        },
+        {
+          "symbol": "settings_text",
+          "start_line": 63
+        },
+        {
+          "symbol": "plugin_info",
+          "start_line": 71
+        },
+        {
+          "symbol": "link_target",
+          "start_line": 74
+        },
+        {
+          "symbol": "ours",
+          "start_line": 81
+        },
+        {
+          "symbol": "pinboard_ok",
+          "start_line": 87
+        },
+        {
+          "symbol": "lock_transcripts",
+          "start_line": 117
+        },
+        {
+          "symbol": "link",
+          "start_line": 139
+        }
+      ]
+    },
+    {
+      "path": "tests/ark-cards/run",
+      "sha256": "99ae9d7d1018249751daee375565748a7a4694951ce066b5e3aeaeeb46405121",
+      "lines": 323,
+      "symbols": []
+    },
+    {
+      "path": "tests/friction-cues/run",
+      "sha256": "02e124d7deedf20524be8a720216f69e1c39be90cd11ba7441d57ce6cc137df3",
+      "lines": 135,
+      "symbols": []
+    },
+    {
+      "path": "tests/win-cues/run",
+      "sha256": "855612b37a24a9224c82e3a70bc2b14c478507388419b97874deed11f5141a9e",
+      "lines": 71,
+      "symbols": []
+    }
+  ]
+}
